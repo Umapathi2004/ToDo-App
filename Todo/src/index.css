@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;  
+ }
+ body{
+  width: 100%;
+  height: auto; 
+  overflow-x: hidden; 
+ }
+ .container{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;  
+ } 
+ .input{
+  margin-top: 50px;
+ }
+ .container .input input{
+   all: unset;
+   padding: 15px 15px;
+   font-size: 1em;
+   font-weight: 500;
+   letter-spacing: 1px;
+   color: #282626c5;
+   width: 200px;
+   background-color: #016c473e;
+   border-radius: 5px;
+   margin-right: 10px;
+ }
+ .container .input button{
+   all: unset;
+   padding: 15px 15px;
+   font-size: 1em;
+   font-weight: 500;
+   letter-spacing: 1px;
+   color: #ffff ; 
+   background-color: #016a45;
+   border-radius: 5px;
+   margin-right: 20px;
+   cursor: pointer;
+ }
+ .container table{
+  width: 600px;
+  height: auto;
+  border-collapse: collapse;
+  margin-top: 50px;
+  text-align: center;
+ }
+ table tr th,table tr td{
+  padding: 15px;  
+ }
+ table tr:nth-child(odd){
+  background-color: #016c471d;
+ }
+ table tr:nth-child(1){
+  background-color: #016a45;
+  color: #ffff; 
+  font-size: .9em;
+  font-weight: 300 ;
+  letter-spacing: 1px;
+ } 
+ table tr td{
+  font-size: 1em;
+  color: 282626c5;
+  font-weight: 500;
+  letter-spacing: 1px; 
+ } 
+ table tr td button{
+  all: unset;
+   padding: 5px;
+   font-size: 1em;
+   font-weight: 400;
+   letter-spacing: 1px;
+   color: #ffff ; 
+   background-color: #016a45;
+   border-radius: 3px; 
+   cursor: pointer;
+   margin-right: 10px;
+ }
+ .Form{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #016c471d;
+  position: absolute; 
+  backdrop-filter: blur(50px);
+  transition: .8s;
+  transform: scale(0);
+ }
+ .hide{
+  transform: scale(1);
+ }
+ .from_container{
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color:#016c4751;
+  border-radius: 5px; 
+ }
+ .from_container form{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+ }
+ .from_container input{
+  all: unset;
+   padding: 15px 15px;
+   font-size: 1em;
+   font-weight: 500;
+   letter-spacing: 1px;
+   color: #282626c5;
+   width: 250px;
+   background-color: #016c473e;
+   border-radius: 5px;
+   margin-right: 10px;
+ }
+ .namecon,.agecon,.citycon{ 
+  display: flex; 
+  align-items: center;
+ }
+ label{
+  font-size: 1em;
+  font-weight: 500;
+  width: 65px;  
+  letter-spacing: 1px;  
+  margin-right: 10px;
+ }
+ .button_container{
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+ }
+ .button_container button{
+  all: unset;
+   padding: 10px;
+   font-size: 1em;
+   font-weight: 400;
+   letter-spacing: 1px;
+   color: #ffff ; 
+   background-color: #016a45;
+   border-radius: 3px; 
+   cursor: pointer; 
+   margin-right: 30px;
+ }
+ .button_container span{
+  all: unset;
+   padding: 10px;
+   font-size: 1em;
+   font-weight: 400;
+   letter-spacing: 1px;
+   color: #ffff ; 
+   background-color: #016a45;
+   border-radius: 3px; 
+   cursor: pointer; 
+   margin-right: 10px;
+ }
+ .type{
+  font-size: 1.5em;
+  font-family: 500;
+  padding: 5px;
+  letter-spacing: 1px;
+ }
