@@ -1,17 +1,20 @@
 import React, { Fragment, useEffect, useState } from 'react'
 import axios from "axios"
 
-const App = () => { 
+const App = () => {  
   const [Users,SetUsers]=useState([]); 
   const [Filtered,SetFilter]=useState([]); 
   const [Hide,SetHide] = useState(false);
   const [AddUser,SetAddUser] = useState({});
 
+  useEffect(()=>{
+    SetAddUser({"name":"","age":"","city":""});
+    getAllUsers(); 
+  },[])  
   const HandelSearch =(e)=> {
   const SearchText = e.target.value.toLowerCase();
   const Filter = Users.filter((user)=>user.name.toLowerCase().includes(SearchText) ||user.city.toLowerCase().includes(SearchText));
   SetFilter(Filter);
-
   } 
   const HandelHide = () =>{
     const Handel = Hide?false:true;
@@ -40,7 +43,7 @@ const App = () => {
         SetFilter(res.data);
      })
   }
- const createNewUser = async() =>{
+   const createNewUser = async() =>{
     if(AddUser.id){
         await axios.put("http://localhost:4000/",AddUser).then((res)=>{
             SetUsers(res.data) 
@@ -55,14 +58,11 @@ const App = () => {
      HandelHide(); 
      SetAddUser({"name":"","age":"","city":""})
  }  
-  useEffect(()=>{
-    SetAddUser({"name":"","age":"","city":""})
-    getAllUsers();
-  },[])  
+   
   return (
      <Fragment>
-        <div className="container">
-            <div className="input">
+        <div className="container" >
+            <div className="input" >
                 <input type="search"  placeholder='Search....' onChange={(e)=>HandelSearch(e)}/>
                 <button onClick={()=>HandelHide()}>Add New</button>
             </div>

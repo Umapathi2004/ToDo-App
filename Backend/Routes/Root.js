@@ -17,9 +17,9 @@ router.route("/")
     })
     .post(async (req,res)=>{
         const id = Data.Elements.length?Data.Elements[Data.Elements.length-1].id+1:1;
-        const name = req.body.name;
-        const age = req.body.age;
-        const city = req.body.city;
+        const name = req.body.name.trim();
+        const age = req.body.age.trim();
+        const city = req.body.city.trim();
         console.log(name,age,city)
         if(name && age && city){
             const result = [...Data.Elements,{"id":id,"name":name,"age":age,"city":city}]; 
@@ -33,9 +33,9 @@ router.route("/")
     })
     .put(async (req,res)=>{
         const id = req.body.id;
-        const name = req.body.name;
-        const age = req.body.age;
-        const city = req.body.city;
+        const name = req.body.name.trim();
+        const age = req.body.age.trim();
+        const city = req.body.city.trim();
         if(id && name && age && city){
             const result = Data.Elements.map((Data)=>Data.id==id?{...Data,name,age,city}:Data);
             Data.SetElements(result);
