@@ -81,3 +81,8 @@
 18-9-2024  22-21-25 localhost DELETE / http://localhost:5173
 18-9-2024  22-21-30 localhost GET / http://localhost:5173
 18-9-2024  22-21-30 localhost GET / http://localhost:5173
+18-9-2024  22-21-30 localhost GET / http://localhost:5173
+18-9-2024  22-21-30 localhost GET / http://localhost:5173
+18-9-2024  22-21-30 localhost GET / http://localhost:5173
+18-9-2024  22-21-30 localhost GET / http://localhost:5173
+18-9-2024  22-21-30 localhost DELETE / http://localhost:5173
