@@ -1,2 +1,15 @@
  17-9-2024  20-7-29 localhost GET /favicon.ico undefined path is not defined
 17-9-2024  21-33-7 localhost GET /favicon.ico undefined path is not defined
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
+2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'

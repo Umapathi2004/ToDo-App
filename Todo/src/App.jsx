@@ -38,10 +38,15 @@ const App = () => {
      }) 
   }   
   const getAllUsers = async() =>{
+    try{
      await axios.get("http://localhost:4000/").then((res)=>{
         SetUsers(res.data) 
         SetFilter(res.data);
      })
+    }
+    catch(error){
+      console.log(error.message)
+    }
   }
    const createNewUser = async() =>{
     if(AddUser.id){

@@ -1,4 +1,4 @@
-const whiteList = ["http://localhost:5173"]
+const whiteList = ["http://localhost:5173","http://localhost:5175"]
 const Operations ={
      origin:(origin,callBack)=>{
         if(whiteList.indexOf(origin)!=-1 || !origin){
