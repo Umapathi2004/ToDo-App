@@ -10,4 +10,4 @@ const Operations ={
      },
       originsSuccessStatus:200
 }
-module.exports = Operations;
+export default Operations;

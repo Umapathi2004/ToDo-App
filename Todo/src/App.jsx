@@ -37,7 +37,7 @@ const App = () => {
         SetFilter(res.data);
      }) 
   }   
-  const getAllUsers = async() =>{
+  const getAllUsers = async() =>{ 
     try{
      await axios.get("http://localhost:4000/").then((res)=>{
         SetUsers(res.data) 
