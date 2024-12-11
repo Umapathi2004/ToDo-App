@@ -99,3 +99,9 @@
 16-10-2024  21-52-12 localhost DELETE / http://localhost:5173
 16-10-2024  21-58-20 localhost GET / http://localhost:5173
 16-10-2024  21-58-20 localhost GET / http://localhost:5173
+6-11-2024  17-19-46 localhost GET / undefined
+6-11-2024  17-19-46 localhost GET /favicon.ico undefined
+6-11-2024  17-19-46 localhost GET / http://localhost:5173
+6-11-2024  17-19-46 localhost GET / http://localhost:5173
+6-11-2024  17-19-46 localhost POST / http://localhost:5173
+6-11-2024  17-21-43 localhost GET / undefined

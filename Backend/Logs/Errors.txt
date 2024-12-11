@@ -14,3 +14,4 @@
 2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
 2-10-2024  11-52-11 localhost GET / http://localhost:5175 This API's Not Available For You!'
 16-10-2024  21-52-12 localhost GET /favicon.ico undefined path is not defined
+6-11-2024  17-19-46 localhost GET /favicon.ico undefined path is not defined
