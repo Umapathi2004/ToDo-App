@@ -3,7 +3,7 @@ const cors = require("cors")
 const app = express()
 const port = process.env.PORT || 4000;
 const bodyParser = require('body-parser');
-const Operation = require("./CorsOperation").default
+const Operation = require("./CorsOperation");
 const Root = require("./Routes/Root.js");
 const { HandelEventes, HandelErrors } = require("./Logs.js");
 app.use(bodyParser.json()) 
