@@ -128,3 +128,11 @@
 20-11-2024  17-43-27 localhost POST / http://localhost:5173
 20-11-2024  17-43-27 localhost POST / http://localhost:5173
 20-11-2024  17-43-27 localhost PUT / http://localhost:5173
+15-0-2025  19-7-20 localhost GET / undefined
+15-0-2025  19-7-20 localhost GET /favicon.ico undefined
+15-0-2025  19-7-20 localhost GET / http://localhost:5173
+15-0-2025  19-7-20 localhost GET / http://localhost:5173
+15-0-2025  19-7-20 localhost PUT / http://localhost:5173
+15-0-2025  19-9-39 localhost GET / undefined
+15-0-2025  19-9-39 localhost POST / http://localhost:5173
+15-0-2025  19-13-46 localhost GET / undefined
